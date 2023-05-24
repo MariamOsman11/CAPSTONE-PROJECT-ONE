@@ -170,7 +170,7 @@ Give a ⭐️ if you like this project!
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-major thanks to microverse and it's code reviewers.
+Original design idea by Cindy Shin in Behance.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -181,3 +181,4 @@ major thanks to microverse and it's code reviewers.
 This project is [MIT](./mit.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
