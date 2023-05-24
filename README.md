@@ -2,7 +2,7 @@
 
 <div align="center">
 
-  <h3><b>PERSONAL PORTFOLIO</b></h3>
+  <h3><b>First Capstone Project</b></h3>
 
 </div>
 
@@ -33,9 +33,10 @@
 
 # 📖 [PERSONAL PORTFOLIO] <a name="about-project"></a>
 
-> A "portfolio" HTML-5 & CSS3 repository built during the portal learning module.
+- personalize the content of your page.
+- Colors.Typography: font face, size, and weight (we suggest using Lato as it is a free font similar to the one used in the original design).
+-Layout: composition and space between elements.The pages should look almost identical to the original design. Small adjustments like text or image changes are acceptable.
 
-It is a show of my understanding of Gitflow, use of Linters, HTML5 semantics, CSS3 flexbox, grid and figma.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -43,8 +44,9 @@ It is a show of my understanding of Gitflow, use of Linters, HTML5 semantics, CS
 
 - HTML-5
 - CSS3
+-JAVASCRIPT
 - Linters
-- Figma
+
 
 <details>
   <summary>Client</summary>
@@ -63,9 +65,9 @@ It is a show of my understanding of Gitflow, use of Linters, HTML5 semantics, CS
 
 - **[Navigation bar]**
 - **[Header section - Introduction]**
-- **[Work Portfolio section - Project description]**
-- **[About Section - About Myself]**
-- **[Contact-me-Section - Contact-Form]**
+- **[Programs section - Project description]**
+- **[Speakers Section - About Myself]**
+- **[Sponsors-Section - Contact-Form]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -75,7 +77,7 @@ It is a show of my understanding of Gitflow, use of Linters, HTML5 semantics, CS
 
 > Added a link to my deployed project.
 
- [Live Demo Link](https://mariamosman11.github.io/-Portfolio-/)
+ [Live Demo Link](https://mariamosman11.github.io/CAPSTONE-PROJECT-ONE/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -99,8 +101,8 @@ It is a show of my understanding of Gitflow, use of Linters, HTML5 semantics, CS
 Install this project with:
 
 - Open your command prompt or terminal and run.
--  git clone https://github.com/MariamOsman11/-Portfolio-.git
-cd -Portfolio-
+-  git clone https://github.com/MariamOsman11/CAPSTONE-PROJECT-ONE.git
+cd CAPSTOBE-PROJECT-ONE
 
 ### Usage
 
@@ -140,11 +142,9 @@ To run tests, run the following command:
 > Features to be added:
 
 - [ ] **[Project: Application deploy]**
-- [ ] **[Project: Evaluate accessibility (pair programming)]**
-- [ ] **[Project: Mobile menu (pair programming)]**
-- [ ] **[Project: Details modal (pair programming)]**
-- [ ] **[Project: Validate contact form (pair programming)]**
-- [ ] **[Project: Preserve data in the browser (pair programming)]**
+- [ ] **[Project: Home (solo programming)]**
+- [ ] **[Project: Details modal (solo programming)]**
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
