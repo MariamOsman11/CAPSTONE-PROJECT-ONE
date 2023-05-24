@@ -1,3 +1,7 @@
+const navList = document.getElementById('navList');
+const hamburger = document.getElementById('hamburger');
+const closeButton = document.getElementById('closeButton');
+
 hamburger.addEventListener('click', (event) => {
   event.preventDefault();
   navList.classList.toggle('active');
@@ -12,7 +16,7 @@ hamburger.addEventListener('click', (event) => {
 
 closeButton.addEventListener('click', (event) => {
   event.preventDefault();
-  
+
   navList.classList.toggle('active');
   closeButton.classList.toggle('active');
 
@@ -22,7 +26,6 @@ closeButton.addEventListener('click', (event) => {
   }
   return true;
 });
-
 
 // speakers-section
 const speakers = [{
@@ -105,4 +108,3 @@ speakers.forEach((index) => {
   speakersCard += speakersCardDetails;
 });
 document.getElementById('speaker-cards').innerHTML = speakersCard;
-

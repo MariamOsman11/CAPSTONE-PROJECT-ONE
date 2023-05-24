@@ -191,8 +191,6 @@ h1 {
 
 .intro-title-two {
   -webkit-background-clip: text;
-
-  /* background-clip: text; */
   background-image: url("images/orangebg.jpg");
   color: transparent;
   font-weight: 700;
