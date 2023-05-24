@@ -1,8 +1,5 @@
-// mobilemenu js
-const navList = document.getElementById('navList');
-const closeButton = document.getElementById('closeButton');
-
-function menuPopup() {
+hamburger.addEventListener('click', (event) => {
+  event.preventDefault();
   navList.classList.toggle('active');
   closeButton.classList.toggle('active');
 
@@ -11,8 +8,21 @@ function menuPopup() {
     return false;
   }
   return true;
-}
-navList.addEventListener('click', menuPopup);
+});
+
+closeButton.addEventListener('click', (event) => {
+  event.preventDefault();
+  
+  navList.classList.toggle('active');
+  closeButton.classList.toggle('active');
+
+  if (window.innerWidth > 768) {
+    document.getElementById('navList').classList.toggle('active');
+    return false;
+  }
+  return true;
+});
+
 
 // speakers-section
 const speakers = [{
@@ -20,42 +30,42 @@ const speakers = [{
   image1: 'images/speaker_05.png',
   speakerName: 'Manzi',
   speakerTitle: 'Ice-shop-owner',
-  speakerBio: 'lorem lorem lorem lorem lorem lorem lorem lorem.',
+  speakerBio: 'Every cake I create is a labor of love.',
 },
 {
   id: 2,
   image1: 'images/speaker_01.png',
   speakerName: 'Manzi',
   speakerTitle: 'Ice-shop-owner',
-  speakerBio: 'lorem lorem lorem lorem lorem lorem lorem lorem.',
+  speakerBio: 'Every cake I create is a labor of love.',
 },
 {
   id: 3,
   image1: 'images/speaker_02.png',
   speakerName: 'Ally',
   speakerTitle: 'Ice-shop-owner',
-  speakerBio: 'lorem lorem lorem lorem lorem lorem lorem lorem.',
+  speakerBio: 'Every cake I create is a labor of love.',
 },
 {
   id: 4,
   image1: 'images/speaker_03.png',
   speakerName: 'Yuhu',
   speakerTitle: 'Ice-shop-owner',
-  speakerBio: 'lorem lorem lorem lorem lorem lorem lorem lorem.',
+  speakerBio: 'Every cake I create is a labor of love.',
 },
 {
   id: 5,
   image1: 'images/speaker_06.png',
   speakerName: 'Alphs',
   speakerTitle: 'Ice-shop-owner',
-  speakerBio: 'lorem lorem lorem lorem lorem lorem lorem lorem.',
+  speakerBio: 'Every cake I create is a labor of love.',
 },
 {
   id: 6,
   image1: 'images/speaker_05.png',
   speakerName: 'Jane',
   speakerTitle: 'Ice-shop-owner',
-  speakerBio: 'lorem lorem lorem lorem lorem.',
+  speakerBio: 'Every cake I create is a labor of love,',
 }];
 
 function generateSpeakers(
@@ -94,5 +104,5 @@ speakers.forEach((index) => {
   );
   speakersCard += speakersCardDetails;
 });
-
 document.getElementById('speaker-cards').innerHTML = speakersCard;
+

@@ -31,7 +31,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [PERSONAL PORTFOLIO] <a name="about-project"></a>
+# 📖 [Capstone Project] <a name="about-project"></a>
 
 - personalize the content of your page.
 - Colors.Typography: font face, size, and weight (we suggest using Lato as it is a free font similar to the one used in the original design).

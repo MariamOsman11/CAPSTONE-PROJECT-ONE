@@ -348,17 +348,15 @@ h1 {
 }
 
 .speaker-images {
-  width: 25%;
-  height: 25%;
+  width: 65px;
+  height: 35px;
   z-index: 2;
-  border-radius: 50%;
 }
 
 .speaker-bgimages {
   width: 15%;
   height: 15%;
   z-index: 1;
-  border-radius: 50%;
   margin-left: -45%;
 }
 
@@ -659,7 +657,6 @@ h1 {
   .speaker-images {
     width: 120px;
     height: 120px;
-    border-radius: 50%;
   }
 
   .speaker-bgimages {
