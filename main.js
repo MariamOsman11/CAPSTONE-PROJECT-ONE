@@ -87,6 +87,7 @@ function generateSpeakers(
          <div class="card-body">
            <h5 class="speaker-name">${speakerName}</h5>
            <p class="speaker-title">${speakerTitle}</p>
+           <hr class="underline">
            <p class="speaker-bio" alt="speaker-bio">${speakerBio}</p>
          </div>
        </div>
