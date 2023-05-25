@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>capstone-project</title>
+    <link rel="stylesheet" href="style.css"/>
+    <script src="https://kit.fontawesome.com/f25b74c76b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header id="dsktop-header">
+        <nav id="nav1" title="first-navigation">
+          <ul>
+            <li><a class="fa-brands fa-facebook-f"></a></li>
+            <li><a class="fa-brands fa-twitter"></a></li>
+            <li><a href="#" class="nav1item">English</a></li>
+            <li><a href="#" class="nav1item">My Page</a></li>
+            <li><a href="#" class="nav1item">Logout</a></li>
+          </ul>
+        </nav>
+         
+        <nav id="nav2" title="second-navigation"> 
+          <a class="main-logo" href="#home"><img src="images/icecream.png" alt="logo"></a>
+          
+          <a class="nav2Item" href="./about.html">About</a>
+          <a class="nav2Item" href="#packages">Packages</a>
+          <a class="nav2Item" href="./about.html">Join</a>
+          <a class="nav2Item" href="#sponsors">Sponsor</a>
+          <a class="nav2Item" href="./about.html">Recipes</a>
+          <a class="mainItem" href="./about.html">Workshops</a> 
+        </nav>   
+    </header>
+
+    <header id="mobile-header">
+      <nav class="mobile-nav"> 
+          <ul onclick="menuPopup()" id="navList" title="navigation-list">
+            <li><a class="navItem" href="./about.html">About</a></li>
+            <li><a class="navItem" href="#packages">Packages</a></li>
+            <li><a class="navItem" href="./about.html">Join</a></li>
+            <li><a class="navItem" href="#sponsors">Sponsor</a></li>
+            <li><a class="navItem" href="./about.html">Recipes</a></li>
+            <li><a class="navItem navItem-main" href="./about.html">Workshops</a></li>
+          </ul> 
+      </nav>   
+      <nav>
+        <div  id="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div> 
+        <div  id="closeButton"> &times; </div>
+      </nav>
+    </header>
+
+    <section class="mobilemain">
+        <article class="home-page" id="#home" title="home-page">
+          <h3 class="intro-title-one"><q>cakey-cakey by Marianna</q></h3>
+          <h1 class="intro-title-two">CAKE-LOVERS WORKSHOP FOR MINORITY GROUP 2023</h1>
+            <p class="explanation-paragraph" alt="explanation-paragraph">
+              A workshop that will allows low income individuals to
+              exhibit with low income to get source of income why can sell their cake to the host community and make money out of it</p>
+          <h4 class="event-date" alt="event-date"> 2023.05.25(THU) ~ 26(FRI)</h4>
+          <div class="copyright">&copy; Nairobi, Kenya </div>
+        </article>
+
+        <article id="packages-offered" title="packages-offered">
+            <h5 class="packages-title" id="packages"> Packages Offered</h5>
+
+            <section class="card-stack">
+              <div class="cards card1" alt="Card1">
+                <img class="cards-img card1-img" src="images/program_icon_01.png" alt="Card1-image">
+                  <h5 class="card-title">lecture</h5>
+                 
+                  <p class="card-text">you'll experience a harmonious blend of moistness, richness, and it's sweetness</p>
+              </div>
+
+              <div class="cards card2" alt="Card2">
+                <img class="cards-img card2-img" src="images/program_icon_02.png" alt="Card2-image">
+                  <h5 class="card-title">lecture</h5>
+                 
+                  <p class="card-text">you'll experience a harmonious blend of moistness, richness, and it's sweetness</p>
+              </div>
+
+              <div class="cards card3" alt="Card3">
+                <img class="cards-img card3-img" src="images/program_icon_03.png" alt="Card3-image">
+                  <h5 class="card-title">lecture</h5>
+                 
+                  <p class="card-text">you'll experience a harmonious blend of moistness, richness, and it's sweetness.</p>
+              </div>
+
+              <div class="cards card4" alt="Card4;">
+                <img class="cards-img card4-img" src="images/program_icon_04.png" alt="Card4-image">
+                  <h5 class="card-title">lecture</h5>
+                 
+                  <p class="card-text">you'll experience a harmonious blend of moistness, richness, and it's sweetness.</p>
+              </div>
+            </section>
+
+            <a href="#" class="view-all">VIEW ALL</a>
+            <button class="join-us">Join Us Today!</button>
+        </article>
+        
+        <section id="speakers" title="speakers">
+          <h5 class="speakers-maintitle">Featured Speakers</h5>         
+            <div id="speaker-cards"> 
+              <!-- Renders all speakers dynamically -->      
+            </div> 
+            <button class="view-more">
+              View More
+              <i id="chevron" class="fa-solid fa-chevron-down"></i>
+            </button> 
+        </section>
+
+        <footer id="footer1" id="sponsors" title="sponsors">
+          <h5 class="sponsors-title">Sponsors</h5>
+          <div class="sponsorship">
+            <a class="sponsor-companies">Mozilla</a>
+            <a class="sponsor-companies">Microsoft</a>
+            <a class="sponsor-companies">Google</a>
+            <a class="sponsor-companies"><img src="images/airbnb.svg"></a>
+          </div>
+      </footer>
+      
+      <footer id="footer2" title="copyright">
+        <img class="footer2-logo" src="images/icecream.png" alt="footer2-logo">
+        <p class="footer2-p">2015 Creative Commons Korea <br> Some Rights Reserved</p>
+      </footer>
+    </section>
+
+    <script src="main.js"></script>
+   
+  
+</body>
+</html>
