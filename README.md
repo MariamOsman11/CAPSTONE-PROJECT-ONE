@@ -73,7 +73,7 @@
 
 <!-- LIVE DEMO -->
 
-<!-- ## 🚀 Live Demo <a name="live-demo"></a> -->
+ ## 🚀 Live Demo <a name="live-demo"></a> 
 
 > Added a link to my deployed project.
 
