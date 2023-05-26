@@ -78,6 +78,8 @@
 > Added a link to my deployed project.
 
  [Live Demo Link](https://mariamosman11.github.io/CAPSTONE-PROJECT-ONE/)
+ 
+ [Loom link](https://www.loom.com/share/83e34926a3ae417294f30293de37a31a)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
